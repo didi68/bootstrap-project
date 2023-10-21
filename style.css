@@ -1,0 +1,63 @@
+.dropdown {
+    list-style: none;
+}
+
+.collapse {
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.navbar-brand {
+    font-size: 30px;
+}
+
+#sidebar {
+    width: 20%;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: gold;
+    font-size: large;
+    font-weight: bold;
+}
+
+.big {
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.image {
+    width: 100%;
+}
+
+.center > hr {
+    width: 15%;
+    border-bottom: 5px solid;
+}
+
+
+@media (max-width: 992px) {
+    .row {
+        gap: 12px;
+    }
+
+    #sidebar {
+        display: none;
+    }
+
+    .big {
+        text-align: center;
+    }
+
+}
+
+@media (min-width: 992px) {
+    .show {
+        display: none;
+    }
+}
+
+
